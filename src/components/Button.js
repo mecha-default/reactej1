@@ -1,9 +1,10 @@
 import '../styles/Button.scss';
-const Button =()=>{
+const Button =({mensaje})=>{
     return(
-        <button></button>
+        <button className= {'mensaje'}></button>
     )
 
 }
 
 export default Button;
+

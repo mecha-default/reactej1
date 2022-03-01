@@ -13,13 +13,15 @@ return(
 <div className='contenedor'>
 <Nav />
 <Main>
-  <Button></Button>
-  <Button></Button>
+  <Button mensaje=""></Button>
+  <Button mensaje=""></Button>
+
 </Main>
-<Footer />
+<Footer>
+
+</Footer>
 </div>
 )
 }
 
 export default App;
-
